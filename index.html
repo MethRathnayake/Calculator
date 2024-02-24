@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<div class="bgcolor">
+ 
+  <div id="text1">
+    <input type="text" id="text" placeholder="Calculator">
+
+  </div>
+  <br>
+  <button id="7" onclick="display('7')">7</button>
+  <button id="8" onclick="display('8')">8</button>
+  <button id="9" onclick="display('9')">9</button>
+  <button class="wadikirima" onclick="operation1('*')">X</button>
+  <br>
+  <button id="4" onclick="display('4')">4</button>
+  <button id="5" onclick="display('5')">5</button>
+  <button id="6" onclick="display('6')">6</button>
+  <button class="bedeema" onclick="operation1('/')">/</button>
+  <br>
+  <button id="1" onclick="display('1')">1</button>
+  <button id="2" onclick="display('2')">2</button>
+  <button id="3" onclick="display('3')">3</button>
+  <button class="ekathu_kireema" onclick="operation1('+')">+</button>
+  <br>
+  <button id="0" onclick="display('0')">0</button>
+  <button class="adu_kireema" onclick="operation1('-')">-</button>
+  
+  <button class="clear" onclick="clear1()">C</button>
+  
+  <button class="equal" onclick="calculate1()">=</button>
+  
+</div>
+ 
+
+
+  <script src="app.js"></script>
+</body>
+</html>

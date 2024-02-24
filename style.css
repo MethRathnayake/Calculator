@@ -1,0 +1,99 @@
+button{
+    display: inline-block;
+    font-size: 70px;
+    text-align: center;
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+        height: 107px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 107px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+}
+button:hover{
+    opacity: 0.5;
+}
+button:active{
+    opacity: 0.3;
+}
+
+.bgcolor{
+    position:absolute;
+    background-color: #35374B;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    border-top-width: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0px; 
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-left: 0px;   
+}
+#text1{
+    background-color: #272829;
+    width: 500px;
+    border-radius: 20px;
+}
+
+#text{
+    width: 430px;
+    height: 85px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+    background-color: #272829;
+    border: none;
+    font-size: 70px;
+    width: 490px;
+}
+
+.wadikirima{
+    background-color: #D36B00;  
+}
+.bedeema{
+    background-color: #D36B00;  
+}
+.ekathu_kireema{
+    background-color: #D36B00;  
+}
+.adu_kireema{
+    background-color: #D36B00;  
+}
+.clear{
+    background-color: #D36B00;  
+}
+.clear{
+    background-color: #D36B00;  
+}
+.equal{
+    background-color: #D36B00;  
+}
