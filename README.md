@@ -4,6 +4,8 @@
 
 A simple calculator project implemented in [HTML , CSS , JavaScript].
 
+![Screenshot 2024-02-24 114043](https://github.com/MethRathnayake/Calculator/assets/134638108/938e710a-2fdf-47dd-be45-96b8babbadfb)
+
 ## Features
 
 - Addition
