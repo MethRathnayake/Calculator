@@ -6,8 +6,28 @@ let result=0;
 function display(num){
    temp=Number(String(temp)+String(num))
    document.getElementById("text").value=document.getElementById("text").value+num;
-   
+   letterToSearch = "/"
+   let occurrences = countOccurrences(document.getElementById("text").value, letterToSearch);
+   // console.log(`The letter '${letterToSearch}' appears ${occurrences} times in the string.`);
+    check(occurrences)
     
+
+    letterToSearch = "+"
+   occurrences = countOccurrences(document.getElementById("text").value, letterToSearch);
+   // console.log(`The letter '${letterToSearch}' appears ${occurrences} times in the string.`);
+    check(occurrences)
+
+    letterToSearch = "-"
+   occurrences = countOccurrences(document.getElementById("text").value, letterToSearch);
+   // console.log(`The letter '${letterToSearch}' appears ${occurrences} times in the string.`);
+    check(occurrences)
+
+
+    letterToSearch = "*"
+    occurrences = countOccurrences(document.getElementById("text").value, letterToSearch);
+    // console.log(`The letter '${letterToSearch}' appears ${occurrences} times in the string.`);
+     check(occurrences)
+
 }
 function operation1(op){
     first_no=temp;
@@ -56,4 +76,28 @@ function clear1(){
      document.getElementById("text").value="";
 
 }
+
+
   
+function countOccurrences(str, letterToSearch) {
+    let count = 0;
+
+    for (let i = 0; i < str.length; i++) {
+        if (str[i] === letterToSearch) {
+            count++;
+        }
+    }
+
+    return count;
+}
+
+
+let letterToSearch = "";
+
+function check(occurrences){
+    if(occurrences==2){
+        document.getElementById("text").value="Error"; 
+        alert("Only one calculation at a time!🙄")
+    }
+}
+
