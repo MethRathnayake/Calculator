@@ -97,7 +97,7 @@ let letterToSearch = "";
 function check(occurrences){
     if(occurrences==2){
         document.getElementById("text").value="Error"; 
-        alert("Only one calculation at a time!🙄")
+        alert("Only one calculation at a time!🙄 Ex: 1+1")
     }
 }
 //end
