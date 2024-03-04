@@ -100,4 +100,4 @@ function check(occurrences){
         alert("Only one calculation at a time!🙄")
     }
 }
-
+//end
